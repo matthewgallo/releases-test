@@ -1,4 +1,4 @@
-name: Releases
+name: Releases # Update to trigger action
 on:
   push:
     branches:
