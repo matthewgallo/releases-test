@@ -1,3 +1,19 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [0.0.2](https://github.com/matthewgallo/releases-test/compare/v0.1.0...v0.0.2) (2022-07-05)
+
+
+### Bug Fixes
+
+* add workflow dispatch option ([3c12804](https://github.com/matthewgallo/releases-test/commit/3c12804270e49d6505e9286434a65be80d3775c6))
+
+
+
+
+
 # [0.1.0](https://github.com/matthewgallo/releases-test/compare/v0.0.1...v0.1.0) (2022-04-29)
 
 
@@ -18,6 +34,3 @@
 ### Features
 
 * add release action ([cb1351b](https://github.com/matthewgallo/releases-test/commit/cb1351ba778ab06d7cc83a72fadb1202aafbdade))
-
-
-
