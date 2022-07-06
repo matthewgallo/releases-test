@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-rc.0](https://github.com/matthewgallo/releases-test/compare/v0.0.3...v1.0.0-rc.0) (2022-07-06)
+
+
+### Features
+
+* another ([262032a](https://github.com/matthewgallo/releases-test/commit/262032a3c7343fd1120233ea1516d59aec4ace61))
+* testing ([b687802](https://github.com/matthewgallo/releases-test/commit/b687802dc95b2af4ab4ad6ece4d5d3ace1398e4c))
+
+
+
+
+
 ## [0.0.3](https://github.com/matthewgallo/releases-test/compare/v0.0.2...v0.0.3) (2022-07-06)
 
 **Note:** Version bump only for package root
