@@ -1,3 +1,12 @@
+## [0.1.2](https://github.com/matthewgallo/releases-test/compare/v0.1.1...v0.1.2) (2022-04-29)
+
+
+### Bug Fixes
+
+* test action update ([3e364ad](https://github.com/matthewgallo/releases-test/commit/3e364adcbf92eb52548e5bdbf0d23ce48f173b8f))
+
+
+
 ## [0.1.1](https://github.com/matthewgallo/releases-test/compare/v0.1.0...v0.1.1) (2022-04-29)
 
 
