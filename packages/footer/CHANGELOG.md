@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-rc.0](https://github.com/matthewgallo/releases-test/compare/v0.0.1-beta.4...v1.0.0-rc.0) (2022-07-06)
+
+
+### Features
+
+* update footer ([fa5370d](https://github.com/matthewgallo/releases-test/commit/fa5370d75ace199bfa58582ab488f9fd17cf2014))
+
+
+
+
+
 ## [0.0.1-beta.3](https://github.com/matthewgallo/releases-test/compare/v0.0.1-beta.2...v0.0.1-beta.3) (2022-07-06)
 
 **Note:** Version bump only for package footer
