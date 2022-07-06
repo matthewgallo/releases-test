@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-rc.0](https://github.com/matthewgallo/releases-test/compare/v1.0.0-rc.0...v2.0.0-rc.0) (2022-07-06)
+
+
+### Bug Fixes
+
+* workflow update again ([b98cdd2](https://github.com/matthewgallo/releases-test/commit/b98cdd2a59d4742dcfafc539a53a54f008070f4d))
+
+
+
+
+
 # [1.0.0-rc.0](https://github.com/matthewgallo/releases-test/compare/v0.0.1-beta.4...v1.0.0-rc.0) (2022-07-06)
 
 
