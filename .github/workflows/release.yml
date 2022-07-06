@@ -1,28 +1,37 @@
 name: Releases # Update to trigger action
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
 
 jobs:
-  changelog:
+  Release:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-
-      - name: conventional Changelog Action
-        id: changelog
-        uses: TriPSs/conventional-changelog-action@v3.7.1
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0 # https://github.com/actions/checkout/issues/217
+          token: ${{ secrets.GH_TOKEN_LERNA }} # https://github.com/lerna/lerna/issues/1957
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
 
-      - name: create release
-        uses: actions/create-release@v1
-        if: ${{ steps.changelog.outputs.skipped == 'false' }}
+      - name: Setup Node.js
+        uses: actions/setup-node@v2 # https://github.com/actions/setup-node
+        with:
+          node-version: lts/gallium
+          registry-url: https://registry.npmjs.org
+          cache: yarn
+
+      - name: Install
+        run: yarn
+
+       # Dry run - `yarn lerna version --no-git-tag-version --no-push`
+      - name: Publish
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ steps.changelog.outputs.tag }}
-          release_name: ${{ steps.changelog.outputs.tag }}
-          body: ${{ steps.changelog.outputs.clean_changelog }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN_LERNA }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: yarn lerna publish --conventional-commits --create-release github --yes

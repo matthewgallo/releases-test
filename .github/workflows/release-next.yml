@@ -34,4 +34,4 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN_LERNA }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: yarn lerna version --conventional-commits --conventional-prerelease --preid beta --yes
+        run: yarn lerna version --conventional-commits --conventional-prerelease=footer --preid beta --yes
