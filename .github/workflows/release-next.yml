@@ -6,7 +6,7 @@ on:
       - next
 
 jobs:
-  Next_release:
+  Next release:
     runs-on: ubuntu-latest
 
     steps:
@@ -34,4 +34,4 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN_LERNA }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: yarn lerna publish premajor --conventional-commits --preid rc --dist-tag next --ignore-changes 'packages/header/**/*' --yes
+        run: yarn lerna publish premajor --conventional-commits --preid rc --ignore-changes 'packages/header/**/*' --create-release github --yes

@@ -1,7 +1,8 @@
 {
-  "name": "header",
-  "version": "0.0.1-beta.4",
+  "name": "header-test-package",
+  "version": "1.0.4",
   "main": "dist/index.js",
+  "license": "MIT",
   "scripts": {
     "build": "rm -rf dist && rollup --config",
     "test": "jest"
