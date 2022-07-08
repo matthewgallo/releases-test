@@ -3,6 +3,78 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0-rc.0](https://github.com/matthewgallo/releases-test/compare/v1.0.4...v3.0.0-rc.0) (2022-07-08)
+
+
+### Bug Fixes
+
+* syntax error in workflow file ([7b0a89f](https://github.com/matthewgallo/releases-test/commit/7b0a89f72eb05fe06607babb0bcda99e3a8d9c06))
+
+
+
+# [2.0.0-rc.0](https://github.com/matthewgallo/releases-test/compare/v1.0.0-rc.0...v2.0.0-rc.0) (2022-07-06)
+
+
+### Bug Fixes
+
+* workflow update again ([b98cdd2](https://github.com/matthewgallo/releases-test/commit/b98cdd2a59d4742dcfafc539a53a54f008070f4d))
+
+
+
+# [1.0.0-rc.0](https://github.com/matthewgallo/releases-test/compare/v0.0.1-beta.4...v1.0.0-rc.0) (2022-07-06)
+
+
+### Features
+
+* update footer ([fa5370d](https://github.com/matthewgallo/releases-test/commit/fa5370d75ace199bfa58582ab488f9fd17cf2014))
+
+
+
+## [0.0.1-beta.4](https://github.com/matthewgallo/releases-test/compare/v0.0.1-beta.3...v0.0.1-beta.4) (2022-07-06)
+
+
+
+## [0.0.1-beta.3](https://github.com/matthewgallo/releases-test/compare/v0.0.1-beta.2...v0.0.1-beta.3) (2022-07-06)
+
+
+
+## [0.0.1-beta.2](https://github.com/matthewgallo/releases-test/compare/v0.0.1-beta.1...v0.0.1-beta.2) (2022-07-06)
+
+
+
+## [0.0.1-beta.1](https://github.com/matthewgallo/releases-test/compare/v0.0.1-beta.0...v0.0.1-beta.1) (2022-07-06)
+
+
+
+## [0.0.1-beta.0](https://github.com/matthewgallo/releases-test/compare/v0.0.3...v0.0.1-beta.0) (2022-07-06)
+
+
+### Bug Fixes
+
+* syntax error in next release workflow ([6615736](https://github.com/matthewgallo/releases-test/commit/661573669321aeeaf127c6eeef367d0f0eec6071))
+
+
+
+## [0.1.2](https://github.com/matthewgallo/releases-test/compare/v0.1.1...v0.1.2) (2022-04-29)
+
+
+### Bug Fixes
+
+* test action update ([3e364ad](https://github.com/matthewgallo/releases-test/commit/3e364adcbf92eb52548e5bdbf0d23ce48f173b8f))
+
+
+
+## [0.1.1](https://github.com/matthewgallo/releases-test/compare/v0.1.0...v0.1.1) (2022-04-29)
+
+
+### Bug Fixes
+
+* test commit ([d048e9b](https://github.com/matthewgallo/releases-test/commit/d048e9b3eadc7db14983fffd82bb08035e6990df))
+
+
+
+
+
 <<<<<<< HEAD
 # [2.0.0-rc.0](https://github.com/matthewgallo/releases-test/compare/v1.0.0-rc.0...v2.0.0-rc.0) (2022-07-06)
 
