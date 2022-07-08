@@ -6,7 +6,7 @@ on:
       - next
 
 jobs:
-  Next release:
+  Next_release:
     runs-on: ubuntu-latest
 
     steps:
