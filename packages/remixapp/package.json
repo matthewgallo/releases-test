@@ -12,7 +12,7 @@
     "@remix-run/node": "^1.5.1",
     "@remix-run/react": "^1.5.1",
     "@remix-run/serve": "^1.5.1",
-    "footer-test-package": "^1.0.6",
+    "footer-test-package": "^1.0.7",
     "header-test-package": "^1.0.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
@@ -41,5 +41,5 @@
       }
     }
   },
-  "version": "1.0.6"
+  "version": "1.0.7"
 }
