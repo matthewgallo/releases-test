@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0-rc.2](https://github.com/matthewgallo/releases-test/compare/v4.0.0-rc.1...v4.0.0-rc.2) (2022-08-11)
+
+
+### Features
+
+* new update to footer, test ([b78bc4e](https://github.com/matthewgallo/releases-test/commit/b78bc4ebdaec850524f91bfad6ba0dedd24d5786))
+
+
+
+
+
 # [4.0.0-rc.1](https://github.com/matthewgallo/releases-test/compare/v4.0.0-rc.0...v4.0.0-rc.1) (2022-07-08)
 
 **Note:** Version bump only for package root
