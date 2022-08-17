@@ -1,4 +1,4 @@
-name: Releases next branch # Update to trigger action
+name: Releases next branch updates # Update to trigger action
 on:
   workflow_dispatch:
     branches:
