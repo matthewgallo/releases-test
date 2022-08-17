@@ -1,6 +1,8 @@
 name: Releases next branch # Update to trigger action
 on:
   workflow_dispatch:
+    branches:
+      - next
   push:
     branches:
       - next
