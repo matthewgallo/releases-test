@@ -3,6 +3,15 @@
   "version": "1.0.8",
   "main": "dist/index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matthewgallo/releases-test.git",
+    "directory": "packages/footer"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "scripts": {
     "build": "rm -rf dist && rollup --config",
     "test": "jest"

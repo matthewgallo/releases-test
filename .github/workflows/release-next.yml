@@ -35,4 +35,4 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN_LERNA }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: yarn lerna publish --conventional-commits --preid rc --ignore-changes 'packages/header/**/*' --yes
+        run: yarn lerna publish --canary --preid canary --dist-tag canary --yes
